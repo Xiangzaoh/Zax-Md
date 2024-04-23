@@ -1,14 +1,14 @@
 {
-  "name": "asta-md",
+  "name": "swahili-md",
   "version": "1.0.0",
-  "description": "Simple WhatsApp Bot.",
+  "description": "Premium WhatsApp Bot.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "pm2 start . --attach --name Asta",
     "stop": "pm2 stop Asta"
   },
-  "author": "Astropeda",
+  "author": "Xiangzaoh",
   "license": "Apache-2.0",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -64,10 +64,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Astropeda/Asta-Md.git"
+    "url": "git+https://github.com/Xiangzaoh/Swahili-Md.git"
   },
   "bugs": {
-    "url": "https://github.com/Astropeda/Asta-Md/issues"
+    "url": "https://github.com/Xiangzaoh/Swahili-Md/issues"
   },
-  "homepage": "https://github.com/Astropeda/Asta-Md#readme"
+  "homepage": "https://github.com/Xiangzaoh/Swahili-Md#readme"
 }
