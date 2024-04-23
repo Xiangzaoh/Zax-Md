@@ -749,7 +749,7 @@ smd(
         return await _0x358984.send(
           "*provide number with msg to send Anonymously.* \n*Example " +
             (prefix + _0x12d243) +
-            " 2348039607375,your_Message*",
+            " 255716312895,your_Message*",
           {},
           "",
           _0x358984

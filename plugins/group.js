@@ -122,7 +122,7 @@ smd({
       const groupInviteLink = `${baseUrl}${groupInviteCode}`;
       const contextInfo = {
         externalAdReply: {
-          title: "*ASTA*-𝗠𝗗",
+          title: "*SWAHILI*-MD",
         },
       };
  
@@ -173,7 +173,7 @@ smd(
           _0x511884.toString().padStart(2, "0");
         var _0x56eaaf = {
           externalAdReply: {
-            title: "*ASTA*-𝗠𝗗",
+            title: "*SWAHILI*-MD",
             body: _0x5f4890.subject,
             renderLargerThumbnail: true,
             thumbnail: log0,

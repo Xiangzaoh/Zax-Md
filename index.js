@@ -1,4 +1,4 @@
-// ASTA MD WHATSAPP BOT 2024 
+// SWAHILI MD WHATSAPP BOT 
 
 const bot = require(__dirname + '/lib/runner')
 const { VERSION } = require(__dirname + '/config')
