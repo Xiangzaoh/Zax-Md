@@ -1,7 +1,7 @@
 {
   "name": "zax-md",
   "description": "Simple WhatsApp Bot",
-  "logo": "https://i.imgur.com/ZkBjWK2.jpg",
+  "logo": "https://i.imgur.com/ubzKvCT.jpeg",
   "keywords": "Asta-Md",
   
   "env": {
@@ -17,13 +17,13 @@
     },
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Astro",
+      "value": "MrXhriss",
       "required" :true
     }, 
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "ᴀsᴛᴀ-ᴍᴅ"
+      "value": "zax-ᴍᴅ"
     }, 
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
@@ -31,7 +31,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2348039607375"
+      "value": "255716312895"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -45,12 +45,12 @@
     "USER_IMAGES": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://i.imgur.com/DoPFyzc.jpg,https://i.imgur.com/YgdZA3l.jpg,https://i.imgur.com/K4IEW12.jpg,https://i.imgur.com/q5MAdYt.jpg,https://i.imgur.com/z20pSwu.jpg,https://i.imgur.com/Xp1b2vG.jpg,https://i.imgur.com/OQOH4Gn.jpeg,https://i.imgur.com/lIo3cM2.jpeg"
+      "value": "https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Africa/Lagos"
+      "value": "Africa/Dodoma"
     },  
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -109,7 +109,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "ᴀsᴛᴀ-ᴍᴅ",
+      "value": "zax-ᴍᴅ",
       "required": false 
     },
     "PACK_AUTHER": {
