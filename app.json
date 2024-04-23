@@ -1,8 +1,8 @@
 {
-  "name": "zax-md",
-  "description": "Simple WhatsApp Bot",
+  "name": "swahili-md",
+  "description": "Premium WhatsApp Bot",
   "logo": "https://i.imgur.com/ubzKvCT.jpeg",
-  "keywords": "Asta-Md",
+  "keywords": "Swahili-Md",
   
   "env": {
     "HEROKU_API_KEY": {
@@ -23,7 +23,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "zax-ᴍᴅ"
+      "value": "swahili-ᴍᴅ"
     }, 
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
@@ -109,7 +109,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "zax-ᴍᴅ",
+      "value": "swahili-ᴍᴅ",
       "required": false 
     },
     "PACK_AUTHER": {
