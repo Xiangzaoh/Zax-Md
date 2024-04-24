@@ -662,7 +662,7 @@ smd(
 
       const cpuName = process.cpuData ? process.cpuData.modelName : "Unknown";
 
-      const message = `*Asta MD Running Since:*\n\n*Uptime:* ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n*RAM Usage:* ${ramUsage.toFixed(2)} MB\n*CPU Name:* ${cpuName}`;
+      const message = `*ZAX MD Running Since:*\n\n*Uptime:* ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n*RAM Usage:* ${ramUsage.toFixed(2)} MB\n*CPU Name:* ${cpuName}`;
 
       const button = [
         {
