@@ -309,7 +309,7 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*ᴀsᴛᴀ ᴘᴀᴛᴄʜ 𝟸.𝟶.𝟶*
+*zᴀx mᴅ ᴛz*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -367,7 +367,7 @@ smd(
         _0x22514a.date +
         "\n*➮ɴᴏᴡ ᴛɪᴍᴇ :* " +
         _0x22514a.time +
-        "\n\n➮Fᴏᴜɴᴅᴇʀ- Astropeda Team\n➮Oᴡɴᴇʀ - " +
+        "\n\n➮Fᴏᴜɴᴅᴇʀ- Xhriss Tech\n➮Oᴡɴᴇʀ - " +
         Config.ownername +
         "\n➮Nᴜᴍ - " +
         owner.split(",")[0] +
@@ -375,7 +375,7 @@ smd(
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *🧑‍💻 :*  ᴀsᴛᴀ ᴍᴅ ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
+        "\n\n *🧑‍💻 :*  zᴀx ᴍᴅ ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
         readmore +
         "\n╭──❰ *ALL MENU* ❱\n│🏮 Lɪꜱᴛ\n│🏮 Cᴀᴛᴇɢᴏʀʏ\n│🏮 Hᴇʟᴘ\n│🏮 Aʟɪᴠᴇ\n│🏮 Uᴘᴛɪᴍᴇ\n│🏮 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
       ).trim();
@@ -552,7 +552,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/z20pSwu.jpeg",
+            "https://i.imgur.com/ubzKvCT.jpeg",
             {
               responseType: "arraybuffer",
             }
@@ -569,13 +569,13 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `zᴀx ᴍᴅ \n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nzᴀx ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/lIo3cM2.jpeg",
+            "https://i.imgur.com/ubzKvCT.jpeg",
             {
               responseType: "arraybuffer",
             }
@@ -591,13 +591,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `zᴀx ᴍᴅ \n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nzᴀx ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/OQOH4Gn.jpeg",
+            "https://i.imgur.com/ubzKvCT.jpeg",
             {
               responseType: "arraybuffer",
             }
@@ -613,7 +613,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `zᴀx ᴍᴅ \n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nzᴀx ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
