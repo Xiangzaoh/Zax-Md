@@ -11,7 +11,7 @@
 
 ### GET SESSION_ID 
 <left>
-<a href="https://github.com/Xiangzaoh/zax-md/fork"><img title="ZAX-MD" src="https://img.shields.io/badge/FORK ZAX-MD-h?color=blue&style=for-the-badge&logo=stackshare"></a>  
+<a href="https://github.com/Xiangzaoh/zax-md/fork"><img title="ZAX-MD" src="https://img.shields.io/badge/FORK ZAX MD-h?color=blue&style=for-the-badge&logo=msi"></a>  
  
  <a href="https://swahili-0a56ccee1196.herokuapp.com//"><img title="SESSION ID" src="https://img.shields.io/badge/CONNECT TO SERVER -h?color=blue&style=for-the-badge&logo=msi"></a>
 
