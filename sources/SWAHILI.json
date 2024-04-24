@@ -1,7 +1,7 @@
 {
     "__JSON__": true,
-    "AUTHOR": "Astro",
-    "theme": "Xhriss-Md",
+    "AUTHOR": "MrXhriss",
+    "theme": "ZAX-MD",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
@@ -10,7 +10,7 @@
             "UPDATED_LOCAL": "Updated Bot successfully"
         },  
         "global": {      
-            "botName": "xhriss ᴍᴅ",
+            "botName": "ZAX MD",
             "body": "Simple WhatsApp Bot", 
             "greet2" : "GoodDay SIR",
             "pic1": "https://telegra.ph/file/2912dd1d0665285ffc931.jpg", 
