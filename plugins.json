@@ -1,0 +1,40 @@
+{
+  "names": [
+    "_menu",
+    "whatsapp",
+    "group",
+    "fun",
+    "media",
+    "misc",
+    "logo",
+    "general",
+    "tools",
+    "games",
+    "downloader",
+    "editorpack",
+    "fun",
+    "_help",
+    "search",
+    "plugins",
+    "ai"
+  ],
+
+  "plugins": {
+    "_menu": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/_menu.js",
+    "whatsapp": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/whatsapp.js",
+    "group": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/group.js",
+    "fun": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/fun.js",
+    "media": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/media.js",
+    "misc": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/misc.js",
+    "logo": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/logo.js",
+    "general": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/general.js",
+    "downloader": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/downloader.js",
+    "games": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/games.js",
+    "tools": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/tools.js",
+    "editorpack": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/editorpack.js",
+    "_help": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/_updater.js",
+    "search": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/search.js",
+    "plugins": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/_plugins.js",
+    "ai": "https://raw.githubusercontent.com/Astropeda/Asta-Md/main/plugins/ai.js"
+  }
+}

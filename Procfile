@@ -1,0 +1,2 @@
+worker: npm start 
+#asta
