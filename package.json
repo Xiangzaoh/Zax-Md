@@ -1,7 +1,7 @@
 {
-   "name": "asta-md",
+   "name": "zax-md",
    "version": "1.0.0",
-   "description": "Simple WhatsApp Bot.",
+   "description": "Premium WhatsApp Bot.",
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
@@ -14,7 +14,7 @@
       "typescript": "^4.9.4",
     "@types/node": "^18.11.18"
    },
-   "author": "Astropeda",
+   "author": "Xiangzaoh",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
@@ -73,8 +73,8 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Astropeda/Asta-Md.git"
+      "url": "git+https://github.com/Xiangzaoh/Zax-Md.git"
    },
-   "bugs": { "url": "https://github.com/Astropeda/Asta-Md/issues" },
-   "homepage": "https://github.com/Astropeda/Asta-Md#readme"
+   "bugs": { "url": "https://github.com/Xiangzaoh/Zax-Md/issues" },
+   "homepage": "https://github.com/Xiangzaoh/Zax-Md#readme"
 }
