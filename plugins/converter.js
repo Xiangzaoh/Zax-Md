@@ -414,17 +414,17 @@ smd(
   async (_0x230c03, _0x3b568a) => {
     try {
       let _0x365550 =
-        "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬ASTA-MD_FANCY_TEXT💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " +
+        "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬ZAX-MD_FANCY_TEXT💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " +
         (_0x3b568a
           ? "```🔢Reply the number you wants to select``` \n\n"
           : "```\t\t" +
             prefix +
-            "fancy Asta(For all text)\n\t\t" +
+            "fancy Xhriss(For all text)\n\t\t" +
             prefix +
-            "fancy 25 Asta(For specific text)```\n\n");
+            "fancy 25 Xhriss(For specific text)```\n\n");
       let _0x50c7d9 = parseInt(_0x3b568a);
       if (isNaN(_0x50c7d9)) {
-        let _0x4ca942 = _0x3b568a ? _0x3b568a : "Asta";
+        let _0x4ca942 = _0x3b568a ? _0x3b568a : "Xhriss";
         listall(_0x4ca942).forEach((_0x51f58f, _0x2be109) => {
           _0x365550 += "\n" + (_0x2be109 += 1) + " " + _0x51f58f + "\n";
         });
@@ -485,7 +485,7 @@ smd(
       let _0xd51ec = _0x4cb7aa ? _0x4cb7aa : _0x4cfc4e.reply_text;
       if (!_0xd51ec) {
         return _0x4cfc4e.reply(
-          "*_Example : " + prefix + "fliptext Suhail MD!_*"
+          "*_Example : " + prefix + "fliptext ZAX MD!_*"
         );
       }
       let _0x5c7a34 = _0xd51ec.split("").reverse().join("");
@@ -835,7 +835,7 @@ smd(
         });
       } else {
         return _0x54e3dc.reply(
-          "*_Uhh Dear, provide text, ex .ttp 4 hii im suhail!!_*"
+          "*_Uhh Dear, provide text, ex .ttp 4 hii am xhriss!!_*"
         );
       }
     } catch (_0x72e5d) {

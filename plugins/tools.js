@@ -16,9 +16,9 @@ smd(
  },
  async (m) => {
    try {
-     const title = "Asta Md 2.0.0 Patch Github Repo Link";
-     const body = "Asta Md a very Simple WhatsApp bot built in Node Js and Baileys with commands tp improve your whatsapp usage is here to bring a new way to use whatsapp.";
-     const footer = "(copyRight logo text) Astropeda Works";
+     const title = "Zax Md Github Repo Link";
+     const body = "Zax Md Premium WhatsApp bot built in Node Js and Baileys with commands tp improve your whatsapp usage is here to bring a new way to use whatsapp.";
+     const footer = "(copyRight logo text) Xiangzaoh Works";
      const contextInfo = {
        forwardingScore: 999,
        isForwarded: true,
@@ -28,7 +28,7 @@ smd(
          previewType: "PHOTO",
          thumbnailUrl: null,
          thumbnail: null,
-         sourceUrl: "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z",
+         sourceUrl: "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k",
        },
      };
 
@@ -105,7 +105,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `𝘼𝙎𝙏𝘼 𝙈𝘿 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `ZAX MD CHANNEL SUPPORT\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -124,7 +124,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `𝘼𝙎𝙏𝘼 𝙈𝘿 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙧𝙤𝙪𝙥\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/DIdy6VE79rj1LscpTBqvYL\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `ZAX MD GROUP SUPPORT\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/L7W9mOrPQH3LyRWmYV8dDj\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,

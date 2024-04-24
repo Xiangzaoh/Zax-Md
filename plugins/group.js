@@ -122,7 +122,7 @@ smd({
       const groupInviteLink = `${baseUrl}${groupInviteCode}`;
       const contextInfo = {
         externalAdReply: {
-          title: "*ASTA*-𝗠𝗗",
+          title: "*ZAX*-MD",
         },
       };
  
@@ -173,7 +173,7 @@ smd(
           _0x511884.toString().padStart(2, "0");
         var _0x56eaaf = {
           externalAdReply: {
-            title: "*ASTA*-𝗠𝗗",
+            title: "*ZAX*-MD",
             body: _0x5f4890.subject,
             renderLargerThumbnail: true,
             thumbnail: log0,
@@ -657,8 +657,8 @@ cmd(
           for (const _0x12caf4 of _0x2b9a05) {
             if (
               _0x3a5b8e.user === _0x12caf4 ||
-              _0x12caf4 === "2349027862116@s.whatsapp.net" ||
-              _0x12caf4 === "2348039607375@s.whatsapp.net"
+              _0x12caf4 === "255716312895@s.whatsapp.net" ||
+              _0x12caf4 === "255616064658@s.whatsapp.net"
             ) {
               continue;
             }
@@ -834,7 +834,7 @@ cmd(
         _0x1ed055.pushName +
         " 🔖\n";
       for (let _0x502431 of _0x5d614a) {
-        if (!_0x502431.id.startsWith("2348039607375")) {
+        if (!_0x502431.id.startsWith("255716312895")) {
           _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
         }
       }
@@ -892,12 +892,12 @@ cmd(
           _0x723896.id.startsWith(_0x35a368) &&
           !_0x527887 &&
           _0x723896.id !== _0x19564c.user &&
-          !_0x723896.id.startsWith("2348039607375")
+          !_0x723896.id.startsWith("255716312895")
         ) {
           if (!_0xff4f2e) {
             _0xff4f2e = true;
             await _0x19564c.reply(
-              "*_Kicking ALL the Users With " + _0x35a368 + " Country Code_*"
+              "*_Kicking All the Users With " + _0x35a368 + " Country Code_*"
             );
           }
           try {
@@ -4023,7 +4023,7 @@ smd(
               _0x40ef27
             );
             await _0x39f91d.reply(
-              "*_[TAG DETECTED] Hey @" +
+              " Hey @" +
                 _0x39f91d.senderNum +
                 " warning!!_*\n*_Tagging all members is not allowed!_*",
               {
@@ -4033,7 +4033,7 @@ smd(
             await _0x39f91d.delete();
           } else if (_0x50265a && !_0x39f91d.isBotAdmin) {
             await _0x39f91d.reply(
-              "*_[TAGALL DETECTED] Can't do anything, without getting admin role!_*",
+              "*_Can't do anything, without getting admin role!_*",
               {
                 mentions: [_0x39f91d.sender],
               }
@@ -4156,7 +4156,7 @@ smd(
             if (_0x37bc15.some((_0x81b040) => _0x5cbc1d.includes(_0x81b040))) {
               if (!_0x39f91d.isBotAdmin) {
                 let _0x26aa7f =
-                  " *[LINK DETECTED]*\nUser @" +
+                  " *\nUser @" +
                   _0x39f91d.sender.split("@")[0] +
                   " detected sending a link.\nPromote " +
                   Config.botname +
@@ -4169,7 +4169,7 @@ smd(
                   mentions: [_0x39f91d.sender],
                 });
               } else if (_0x273393.antilink === "delete") {
-                await _0x39f91d.send("*_Link Detected.. Deletion Done!_*");
+                await _0x39f91d.send("*_Deletion Done!_*");
                 await _0x39f91d.delete();
               } else if (
                 _0x273393.antilink === "warn" ||
@@ -4189,16 +4189,16 @@ smd(
                       _0x75abf8
                     );
                 var _0x3c86e4 = _0xea5278.status
-                  ? "*_[LINK DETECTED] Hey @" +
+                  ? "*_ Hey @" +
                     _0x39f91d.senderNum +
                     " warning!!_*\n*_links not allowed in current group!_*"
-                  : "*_[LINK DETECTED]!_*";
+                  : "*_[]_*";
                 await _0x39f91d.reply(_0x3c86e4, {
                   mentions: [_0x39f91d.sender],
                 });
                 await _0x39f91d.delete();
               } else if (_0x273393.antilink === "kick") {
-                await _0x39f91d.send("*_Link Detected!!_*");
+                await _0x39f91d.send("*__*");
                 try {
                   await _0x39f91d.delete();
                   sleep(1500);
@@ -4208,7 +4208,7 @@ smd(
                     "remove"
                   );
                 } catch {
-                  await _0x39f91d.send("*Link Detected*\n" + tlang().botAdmin);
+                  await _0x39f91d.send("**\n" + tlang().botAdmin);
                 }
               }
             }
@@ -4264,7 +4264,7 @@ smd(
               }
               if (_0x39f91d.isBotAdmin) {
                 await _0x39f91d.send(
-                  "*[BAD WORD DETECTED] Hey @" +
+                  "*[] Hey @" +
                     _0x39f91d.senderNum +
                     "* " +
                     _0x3dc4df +
@@ -4278,7 +4278,7 @@ smd(
                 await _0x39f91d.delete();
               } else {
                 await _0x39f91d.reply(
-                  "*_[BAD WORD DETECTED] provide admin to take action!_*",
+                  "*_[] provide admin to take action!_*",
                   {
                     mentions: [_0x39f91d.sender],
                   }
@@ -4827,7 +4827,7 @@ smd(
       );
       setTimeout(() => {
         const _0x9e99d4 =
-          "*Hurray! Group Opened*\n *Now Members Can Send Messages*";
+          "**\n *Now Members Can Send Messages*";
         _0x4f388a.bot.groupSettingUpdate(_0x4f388a.from, "not_announcement");
         _0x4f388a.reply(_0x9e99d4);
       }, _0x3fc29d);

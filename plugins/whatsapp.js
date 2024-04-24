@@ -563,7 +563,7 @@ cmd(
   {
     pattern: "vv",
     alias: ["viewonce", "retrive"],
-    desc: "download viewOnce Message.",
+    desc: "viewOnce Message.",
     category: "whatsapp",
     use: "<query>",
     react: "👀",
@@ -590,7 +590,7 @@ cmd(
       let _0x86453 = {
         key: _0x17ffa2.key,
         message: {
-          conversation: "```[VIEWONCE FOUND DOWNLOAD 100%]```",
+          conversation: "```[viewonce Message]```",
         },
       };
       let _0x22f0a2 = await _0x5e331d.bot.downloadAndSaveMediaMessage(
@@ -851,7 +851,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "null";
 global.read_status_from =
   process.env.READ_STATUS_FROM ||
   global.read_status_from ||
-  "2348039607375,2349027862116";
+  "255716312895";
 smd({ on: "status" }, async (message, text) => {
   try {
     if (
@@ -882,7 +882,7 @@ smd({ on: "status" }, async (message, text) => {
 
 smd(
   {
-    cmdname: "asta",
+    cmdname: "zax",
     desc: "total Users Currently",
   },
   async (message) => {
@@ -892,12 +892,12 @@ smd(
       );
       if (data && data.success)
         return await message.reply(
-          `*Currently "${data.total}" Users Using Asta-Md*`
+          `*Currently "${data.total}" Users Using zax-md*`
         );
       else message.reply(`*No Data FOUNd!* `);
     } catch (e) {
       console.error("Error:", e);
-      message.reply(`*YEAH IT'S ASTA* `);
+      message.reply(`*YEAH IT'S ZAX MD* `);
     }
   }
 );
