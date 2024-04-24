@@ -16,11 +16,9 @@
  <a href="https://swahili-0a56ccee1196.herokuapp.com//"><img title="SESSION ID" src="https://img.shields.io/badge/CONNECT TO SERVER -h?color=blue&style=for-the-badge&logo=msi"></a>
 
 ## DEPLOYMENT METHOD
-
 <a href="https://heroku.com/deploy?template=https://github.com/Xiangzaoh/zax-md"><img title="zax-md Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=blue&style=for-the-badge&logo=heroku"></a> 
 
  ### SUPPORT CHANNEL
-
 <a href="https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k"><img title="zax-md Deploy Glitch" src="https://img.shields.io/badge/WHATSAPP CHANNEL-h?color=blue&style=for-the-badge&logo=whatsapp"></a>
    
 ### NOTICE
