@@ -1,8 +1,8 @@
 {
-  "name": "xhriss-md",
-  "description": "Simple WhatsApp Bot",
-  "logo": "https://telegra.ph/file/2912dd1d0665285ffc931.jpg",
-  "keywords": "Asta-Md",
+  "name": "zax-md",
+  "description": "Premium WhatsApp Bot",
+  "logo": "https://i.imgur.com/ubzKvCT.jpeg",
+  "keywords": "Zax-Md",
   
   "env": {
     "OWNER_NAME": {
@@ -45,7 +45,7 @@
     "USER_IMAGES": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/2912dd1d0665285ffc931.jpg,https://telegra.ph/file/2912dd1d0665285ffc931.jpg,https://telegra.ph/file/2912dd1d0665285ffc931.jpg,https://telegra.ph/file/2912dd1d0665285ffc931.jpg"
+      "value": "https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
