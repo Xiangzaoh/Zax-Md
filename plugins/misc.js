@@ -463,7 +463,7 @@ smd(
         "https://api.github.com/repos/Astropeda/Asta-Md"
       );
       let _0x1c73f9 = (
-        "\nSimple WhatsApp Bot, Created By *" +
+        "\nPremium WhatsApp Bot, Created By *" +
         Config.ownername +
         "*. \n\n  *❲❒❳ Stars:* " +
         (_0x44f98c?.stargazers_count || "120+") +
@@ -471,7 +471,7 @@ smd(
         (_0x44f98c?.forks_count || "1000+") +
         " forks\n  *❲❒❳ Creator:* MrXhriss\n  *❲❒❳ Created:* " +
         (_0x44f98c?.created_at || "undefined") +
-        "\n  *❲❒❳ Repo:* _https://github.com/videoyt24/Swahili-Md_\n  *❲❒❳ Scan:* _" +
+        "\n  *❲❒❳ Repo:* _https://github.com/Xiangzaoh/Zax-Md_\n  *❲❒❳ Scan:* _" +
         scan +
         "_\n\n" +
         (Config.caption ? "\n\n" + Config.caption : "")
