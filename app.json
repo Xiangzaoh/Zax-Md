@@ -50,7 +50,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Africa/Dooma"
+      "value": "Africa/Dodoma"
     },  
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -99,12 +99,12 @@
     }, 
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key here for Aitts.",
-      "value": "",
+      "value": "3e57046161ccf9ac1f4b9e03828a5fe9",
       "required" :false
     }, 
     "REMOVE_BG_KEY": {
       "description": "put your REMOVE BG KEY here.Get it from removeBg.com ",
-      "value": "",
+      "value": "DJwc34NaWmhXmDxEeh6YUEmm",
       "required" :false
     },
     "PACK_NAME": {
@@ -114,7 +114,7 @@
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
+      "value": "Xhriss",
       "required": false 
     },
     "STACK": {
