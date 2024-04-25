@@ -8,7 +8,7 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "zaxmd001@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "";
-global.allowJids = process.env.ALLOW_JID || "null";
+global.allowJids = process.env.ALLOW_JID || "true";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dodoma";
@@ -48,7 +48,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©zax",
+  caption: process.env.CAPTION || "©zaxbot",
   author: process.env.PACK_AUTHER || "zax-md",
   packname: process.env.PACK_NAME || "Xhrisstz ♥️",
   botname: process.env.BOT_NAME || "ZAX-MD",
