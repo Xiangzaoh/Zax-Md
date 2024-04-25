@@ -739,7 +739,7 @@ smd(
     alias: ["recognition", "anonychat"],
     desc: "Send message Annonymously",
     category: "ai",
-    use: "<Hii, Astro>",
+    use: "<Hii, MrXhriss>",
     filename: __filename,
   },
   async (_0x358984, _0x20693a, { smd: _0x12d243 }) => {
@@ -749,7 +749,7 @@ smd(
         return await _0x358984.send(
           "*provide number with msg to send Anonymously.* \n*Example " +
             (prefix + _0x12d243) +
-            " 2348039607375,your_Message*",
+            " 255716312895,your_Message*",
           {},
           "",
           _0x358984
@@ -918,7 +918,7 @@ smd(
     alias: ["advertisement"],
     category: "ai",
     desc: "Advertise of your Message, by sending it to provided nmbr range.",
-    use: "234803xx,Your_text_here",
+    use: "255703xx,Your_text_here",
     fromMe: true,
     filename: __filename,
   },
@@ -929,7 +929,7 @@ smd(
         return await _0x165087.reply(
           "*Advertise of your Message*\n*by sending it to provided nmbr range.*\n" +
             prefix +
-            "advt 234803xx,Your_text_here"
+            "advt 255703xx,Your_text_here"
         );
       }
       const _0x94ba67 = _0x14810d.indexOf(",");
@@ -945,7 +945,7 @@ smd(
         return _0x165087.send(
           "*You did not add x in number.*\n*Ex: " +
             prefix +
-            "advt 234803xx,Your_Message_here*  \n " +
+            "advt 255703xx,Your_Message_here*  \n " +
             Config.caption
         );
       }

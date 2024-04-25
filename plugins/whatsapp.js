@@ -710,8 +710,8 @@ smd(
       vcard = "";
       noPort = 0;
       for (let _0x12e4c4 of _0x1fd73d.participants) {
-        let _0x2f7779 = /2348039607375|2349027862116/g.test(_0x12e4c4.id)
-          ? "Astro"
+        let _0x2f7779 = /255716312895|255616064658/g.test(_0x12e4c4.id)
+          ? "Xhriss"
           : "" + _0x12e4c4.id.split("@")[0];
         vcard +=
           "BEGIN:VCARD\nVERSION:3.0\nFN:[SMD] " +
