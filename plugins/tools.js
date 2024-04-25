@@ -3,7 +3,7 @@ let fs = require("fs");
 const fetch = require("node-fetch");
 const cheerio = require("cheerio");
 const Config = require("../config");
-const { react } = require("../lib/Asta");
+const { react } = require("../lib/Zax");
 let s_ser = true;
 const axios = require('axios');
 smd(

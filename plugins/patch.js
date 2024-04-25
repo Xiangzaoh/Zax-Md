@@ -53,9 +53,9 @@ const database_info = (() => {
   })(1, 499);
   return dbNumber;
 })();
-smd({ cmdname: "updatenow", type: "owner", info: "Downloads the entire Git repository from https://github.com/Astropeda/Asta on the root of the app.", fromMe: s_ser, filename: __filename }, async (message) => {
+smd({ cmdname: "updatenow", type: "owner", info: "Downloads the entire Git repository from https://github.com/Xiangzaoh/Zax on the root of the app.", fromMe: s_ser, filename: __filename }, async (message) => {
   try {
-    const repoUrl = 'https://github.com/Astropeda/Asta';
+    const repoUrl = 'https://github.com/Xiangzaoh/Zax';
     const repoDir = './'; // Current working directory (root of the app)
 
     await send.message("Downloading Git Repository...");
@@ -178,7 +178,7 @@ smd(
           }
         }
 
-        return await message.send("`ASTA MD UPDATE WAS SUCCESSFULL ✅`");
+        return await message.send("`ZAX MD UPDATE WAS SUCCESSFULL ✅`");
       } else {
         return await message.send(
           "*Auto Updated Failed, Unable to Download Update Please Manually Do It*"
@@ -675,9 +675,9 @@ smd(
       const contextInfo = {
         isForwarded: true,
         forwardingScore: 999,
-        title: "Asta MD Running Since",
+        title: "ZAX MD Running Since",
         body: message,
-        footerText: "Asta MD 2024",
+        footerText: "ZAX MD 2024",
         isSendNotificationMsg: true,
         mentionedJid: [],
         buttons: button,
@@ -1101,7 +1101,7 @@ smd(
       if (!isNaN(_0x56b5d3)) {
         if (
           _0x1eb88a[_0x210c92(367)] > 30 &&
-          _0x1eb88a[1][_0x210c92(362)]("ASTA-MD_FANCY_TEXT")
+          _0x1eb88a[1][_0x210c92(362)]("ZAX-MD_FANCY_TEXT")
         ) {
           var _0x7b7a13 = _0x1eb88a[_0x210c92(379)]((_0x4377cc) =>
             _0x4377cc.startsWith(_0x56b5d3 + " ")

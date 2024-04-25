@@ -375,7 +375,7 @@ cmd(
             image: {
               url: _0x5ae446,
             },
-            caption: "`ASTA MD WHATSAPP BOT`",
+            caption: "`ZAX MD WHATSAPP BOT`",
           },
           {
             quoted: _0x5b9714,

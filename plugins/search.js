@@ -183,7 +183,7 @@ smd(
         tdl = "_*",
         contextInfo = {
           externalAdReply: {
-            ...(await message.bot.contextInfo("*ASTA*-𝗠𝗗", `Lyrics-${text}`)),
+            ...(await message.bot.contextInfo("*ZAX*-MD", `Lyrics-${text}`)),
           },
         };
       await send(

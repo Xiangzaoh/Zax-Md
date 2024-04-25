@@ -5,9 +5,9 @@
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Asta || node .",
-            "start": "pm2 start . --attach --name Asta",
-            "stop": "pm2 stop Asta"
+            "run": "pm2 start . --deep-monitoring --attach --name Zax || node .",
+            "start": "pm2 start . --attach --name Zax",
+            "stop": "pm2 stop Zax"
    },
    "devDependencies": {
       "pino": "^7.0.5",
