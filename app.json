@@ -23,7 +23,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "Xhriss_Md"
+      "value": "ZAX-MD"
     }, 
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
@@ -50,7 +50,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Africa/Lagos"
+      "value": "Africa/Dooma"
     },  
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -70,7 +70,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required" :false,
-      "value": "online"
+      "value": "available"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -80,7 +80,7 @@
     "MSGS_IN_LOG": {
       "description": "Fill the value -true- if you want to see Messages in logs.",
       "required" :false,
-      "value": "true"
+      "value": "false"
     },
     "READ_MESSAGE": {
       "description": "Fill the value true if you want bot to read all messages.",
