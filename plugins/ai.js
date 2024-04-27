@@ -191,7 +191,7 @@ smd(
   {
     pattern: "rmbg",
     alias: ["removebg"],
-    desc: "Removes the background from an image.",
+    desc: "Remove the background from an image.",
     category: "ai",
     filename: __filename,
     use: "<image URL>",
