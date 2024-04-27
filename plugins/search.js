@@ -81,7 +81,7 @@ smd(
       message.react("🔍");
       if (!match)
         return message.reply(
-          `Give me a user name like ${prefix}github Astropeda`
+          `Give me a user name like ${prefix}github Xiangzaoh`
         );
 
       const { data } = await axios(`https://api.github.com/users/${match}`);

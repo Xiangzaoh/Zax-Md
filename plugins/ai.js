@@ -318,7 +318,7 @@ smd({
     if (!res.status === 200) return message.send("*There's a problem, try again later!*");
 
     const { result } = res;
-    const astro = "𝘼𝙎𝙏𝘼 𝙂𝙋𝙏4\n "
+    const astro = "ZAX GPT4\n "
     const tbl = "```";
     await send(message, `${astro}${tbl}${result}${tbl}`);
   } catch (e) {
@@ -340,7 +340,7 @@ smd({
     if (!res.status === 200) return message.send("*There's a problem, try again later!*");
 
     const { result } = res;
-    const astro = "𝘼𝙎𝙏𝘼*GEMINI* 𝘼𝙄"
+    const astro = "ZAX*GEMINI* 𝘼𝙄"
     const tbl = "```";
     await send(message, `${astro}${tbl}${result}${tbl}`);
   } catch (e) {

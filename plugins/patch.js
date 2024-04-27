@@ -1583,7 +1583,7 @@ try {
         let update = await DB.sync();
         await citel.bot.sendMessage(
           citel.chat,
-          { text: update.replace(/Astropeda/, "Astropeda") },
+          { text: update.replace(/Xiangzaoh/, "Xiangzaoh") },
           { quoted: citel }
         );
 
