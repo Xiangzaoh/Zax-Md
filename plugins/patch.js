@@ -1,116 +1,194 @@
-const DB = require('../lib/scraper')
-const { Config, smd } = require('../lib')
-const simpleGit = require('simple-git');
+const os = require("os");
+const fs = require("fs");
+const Config = require("../config");
+const translatte = require("translatte");
+const cron = require("node-cron");
+var cronStart = false;
+const DB = require("../lib/scraper");
+const simpleGit = require("simple-git");
 const git = simpleGit();
-const fs = require('fs');
+const axios = require("axios");
+let {
+  fancytext,
+  tlang,
+  runtime,
+  formatp,
+  prefix,
+  tiny,
+  smd,
+  bot,
+} = require("../lib");
+const util = require("util");
+const { cmd } = require("../lib/plugins");
+const astro_patch = require("../lib/plugins");
+const events = astro_patch;
+const { exec } = require("child_process");
+let s_ser = true;
+const long = String.fromCharCode(8206);
+const readmore = long.repeat(4001);
+const trend_usage = (() => {
+  const trendNumber = ((min, max) => {
+    const random = () => Math.random();
+    const floor = (x) => Math.floor(x);
+    const multiply = (a, b) => a * b;
+    const add = (a, b) => a + b;
+    const subtract = (a, b) => a - b;
+    const randomValue = multiply(random(), subtract(max, min + 1));
+    const result = add(floor(randomValue), min);
+    return result;
+  })(1, 99);
+  return trendNumber;
+})();
 
+const database_info = (() => {
+  const dbNumber = ((min, max) => {
+    const random = () => Math.random();
+    const floor = (x) => Math.floor(x);
+    const multiply = (a, b) => a * b;
+    const add = (a, b) => a + b;
+    const subtract = (a, b) => a - b;
+    const randomValue = multiply(random(), subtract(max, min + 1));
+    const result = add(floor(randomValue), min);
+    return result;
+  })(1, 499);
+  return dbNumber;
+})();
+smd({ cmdname: "updatenow", type: "owner", info: "Downloads the entire Git repository from https://github.com/Xiangzaoh/Zax on the root of the app.", fromMe: s_ser, filename: __filename }, async (message) => {
+  try {
+    const repoUrl = 'https://github.com/Xiangzaoh/Zax';
+    const repoDir = './'; // Current working directory (root of the app)
 
-if (!fs.existsSync('./.git')) { throw "UPDATE COMMAND NOT WORKS B'COZ GIT NOT FOUND IN APP!" }
-try {
+    await send.message("Downloading Git Repository...");
 
-  const Heroku = require('heroku-client');
-  //---------------------------------------------------------------------------
+    // Clone the repository
+    const { stdout, stderr } = await exec(`git clone ${repoUrl} ${repoDir}`);
 
-
-
-
-  async function updateHerokuApp() {
-    try {
-      const heroku = new Heroku({ token: process.env.HEROKU_API_KEY });
-      await git.fetch();
-      const commits = await git.log(['main..origin/main']);
-      if (commits.total === 0) { return 'You already have latest version installed.'; }
-      else {
-        console.log("Update Detected, trying to update your bot!")
-        const app = await heroku.get(`/apps/${process.env.HEROKU_APP_NAME}`);
-        const gitUrl = app.git_url.replace('https://', `https://api:${process.env.HEROKU_API_KEY}@`);
-        try { await git.addRemote('heroku', gitUrl); } catch (e) { print('Heroku remote adding error', e); }
-        await git.push('heroku', 'main');
-        return 'Bot updated. Restarting.';
-      }
-    } catch (e) {
-      print(e)
-      return "Can't Update, Request Denied!"
+    if (stderr) {
+      log('Error cloning repository:', stderr);
+      return await message.send('*Error cloning repository. Please try again later.*');
     }
+
+    log('Repository cloned successfully');
+    await message.send('*Git repository downloaded successfully!*');
+  } catch (error) {
+    log('Error downloading repository:', error);
+    await message.send('*Error downloading repository. Please try again later.*');
   }
-
-
-  //---------------------------------------------------------------------------
-  smd({
-    pattern: "update",
-    desc: "Shows repo\'s refreshed commits.",
-    category: "tools",
-    fromMe: true,
-    react: "🍂",
+});
+smd(
+  {
+    cmdname: "update",
+    type: "owner",
+    info: "Installs external modules or plugins from a provided URL or a predefined list.",
+    fromMe: s_ser,
     filename: __filename,
-    use: process.env.HEROKU_API_KEY ? "[ start ]" : "",
+    use: "<gist url>",
   },
-    async (citel, text) => {
+  async (message, args) => {
+    try {
+      let pluginNames = [];
+      let pluginUrls = {};
+      let pluginExtensions = {};
+
       try {
-        //console.log("Calle update ")
-        let commits = await DB.syncgit()
-        // console.log("commits:  ", commits)
-        if (commits.total === 0) return await citel.reply(`*BOT IS UPTO DATE...!!*`)
-        let update = await DB.sync()
-        await citel.bot.sendMessage(citel.chat, { text: update.replace(/SuhailTechIMd/, "Xiangzaoh"), }, { quoted: citel });
+        const { data: response } = await axios.get(
+          "https://gist.githubusercontent.com/Astropeda/c87ac3fa5ce0017deb8080544de9bd26/raw"
+        );
+        pluginUrls = {
+          ...(typeof response.external === "object" ? response.external : {}),
+          ...(typeof response.plugins === "object" ? response.plugins : {}),
+        };
+        pluginNames = response.names;
+        pluginExtensions =
+          response.extension && typeof response.extension === "object"
+            ? response.extension
+            : {};
+      } catch (error) {
+        pluginUrls = {};
+      }
 
+      pluginNames = Array.isArray(pluginNames) ? pluginNames : [];
 
-        if (text == 'start' && process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY) {
-          citel.reply('Build started...');
-          const update = await updateHerokuApp();
-          return await citel.reply(update);
+      if (bot && bot.plugins) {
+        await send.message("Downloading Update");
+        pluginUrls = { ...bot.plugins, ...pluginUrls };
+      }
+
+      let url = args ? args : message.quoted ? message.quoted.text : "";
+      if (url.toLowerCase().includes("https")) {
+        try {
+          const { data: pluginCode } = await axios.get(url);
+          const pluginName = url.split("/").pop().split(".")[0];
+          const pluginFileName =
+            pluginName +
+            (pluginExtensions[pluginName] &&
+            /.js|.smd/gi.test(pluginExtensions[pluginName])
+              ? pluginExtensions[pluginName]
+              : ".js");
+          const pluginDir =
+            plugin_dir +
+            (pluginFileName.includes("/") ? pluginFileName.split("/")[0] : "");
+
+          if (!fs.existsSync(pluginDir)) {
+            fs.mkdirSync(pluginDir, { recursive: true });
+          }
+
+          fs.writeFileSync(plugin_dir + pluginFileName, pluginCode, "utf8");
+          log(" " + pluginName + " ✔️");
+        } catch (error) {
+          log(" " + pluginName + " ❌");
+        }
+      } else if (Object.keys(pluginUrls || {}).length > 0) {
+        const externalPlugins = pluginUrls;
+
+        for (const pluginName in externalPlugins) {
+          try {
+            const pluginUrl = externalPlugins[pluginName].includes("raw")
+              ? externalPlugins[pluginName]
+              : externalPlugins[pluginName] + "/raw";
+            const { data: pluginCode } = await axios.get(pluginUrl);
+
+            if (pluginCode) {
+              const pluginFileName =
+                pluginName +
+                (pluginExtensions[pluginName] &&
+                /.js|.smd/gi.test(pluginExtensions[pluginName])
+                  ? pluginExtensions[pluginName]
+                  : ".js");
+              const pluginDir =
+                plugin_dir +
+                (pluginFileName.includes("/")
+                  ? pluginFileName.split("/")[0]
+                  : "");
+
+              if (!fs.existsSync(pluginDir)) {
+                fs.mkdirSync(pluginDir, { recursive: true });
+              }
+
+              fs.writeFileSync(plugin_dir + pluginFileName, pluginCode, "utf8");
+
+              if (!pluginNames.includes(pluginName)) {
+                log(" " + pluginName + " ✔️");
+              }
+            }
+          } catch (error) {
+            if (!pluginNames.includes(pluginName)) {
+              log(" " + pluginName + " ❌");
+            }
+          }
         }
 
-
-
-      } catch (e) { citel.error(`${e}\n\nCommand: update`, e, "ERROR!") }
-
-
-
-    })
-
-
-
-
-  //---------------------------------------------------------------------------
-  //                  UPDATE COMMANDS
-  //---------------------------------------------------------------------------
-
-
-  smd({
-    pattern: "updatenow",
-    desc: process.env.HEROKU_API_KEY ? "Temporary update for heroku app!" : "update your bot by repo!.",
-    fromMe: true,
-    category: "tools",
-    filename: __filename
-  },
-    async (citel) => {
-      try {
-        let commits = await DB.syncgit()
-        if (commits.total === 0) return await citel.reply(`*YOU HAVE LATEST VERSION INSTALLED!*`)
-        let update = await DB.sync()
-        let text = " *> Please Wait Updater Started...!*\n  *───────────────────────────*\n" + update + "\n  *───────────────────────────*";
-        await citel.bot.sendMessage(citel.jid, { text });
-        await require("simple-git")().reset("hard", ["HEAD"])
-        await require("simple-git")().pull()
-        await citel.reply(process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY ? "*BOT Temporary Updated on `HEROKU`!\nIt'll reset when your bot restarts!*" : "*Successfully updated. Now You Have Latest Version Installed!*")
-        // process.exit(1);
-
-      } catch (e) { citel.error(`${e}\n\nCommand: updatenow`, e, "ERROR!") }
-    })
-
-
-
-
-
-
-
-  if (process.env.HEROKU_API_KEY) {
-    print("HEROKU : checking for auto update!");
-    updateHerokuApp()
+        return await message.send("`ZAX MD UPDATE WAS SUCCESSFULL ✅`");
+      } else {
+        return await message.send(
+          "*Auto Updated Failed, Unable to Download Update Please Manually Do It*"
+        );
+      }
+    } catch (error) {
+      log("❌ ERROR INSTALATION PLUGINS ", error);
+    }
   }
-
-} catch (e) { }
+);
 astro_patch.smd(
   {
     cmdname: "menu",
