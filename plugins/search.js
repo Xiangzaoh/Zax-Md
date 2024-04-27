@@ -380,7 +380,7 @@ smd(
     try {
       if (!text)
         return message.reply(
-          `*_Uhh please, give me a query_*\n*_Example : ${prefix}google Astro Md._*`
+          `*_Uhh please, give me a query_*\n*_Example : ${prefix}google Zax Md._*`
         );
       let google = require("google-it");
       google({ query: text }).then((res) => {

@@ -3,7 +3,7 @@ const bot = require(__dirname + '/lib/runner')
 const { VERSION } = require(__dirname + '/config')
 
 const start = async () => {
-    Debug.info(`Asta ${VERSION}`)
+    Debug.info(`Zax ${VERSION}`)
   try {
     await bot.init()
     bot.logger.info('⏳ Starting App!')

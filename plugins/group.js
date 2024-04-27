@@ -1308,7 +1308,7 @@ smd(
         contextInfo: _0x1a1a8e,
         mentions: [_0x7fa6d0],
       },
-      "asta"
+      "zax"
     );
   }
 );

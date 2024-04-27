@@ -96,7 +96,7 @@ smd(
         return await _0xd700b1.send(
           "*_provide text to update profile status!_*\n*_Example: " +
             prefix +
-            "bio Astro Md_*"
+            "bio Zax Md_*"
         );
       }
       await _0xd700b1.bot.updateProfileStatus(_0xb45f41);
@@ -395,7 +395,7 @@ cmd(
       }
       if (!_0x4158fc) {
         return _0xcffaeb.reply(
-          "Please Give Me User Name, \n *Example : " + prefix + "vcard Astro "
+          "Please Give Me User Name, \n *Example : " + prefix + "vcard Zax "
         );
       }
       var _0x423556 = _0x4158fc.split(" ");
