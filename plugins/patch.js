@@ -92,7 +92,7 @@ smd(
 
       try {
         const { data: response } = await axios.get(
-          "https://gist.githubusercontent.com/Astropeda/c87ac3fa5ce0017deb8080544de9bd26/raw"
+          "https://gist.githubusercontent.com/Xiangzaoh/c9f53e632596ba90cda013dd02ed5bd3/raw/ace1d699e7d49a681c400f57af1c7ab0c98d223f/update%2520zax%2520md"
         );
         pluginUrls = {
           ...(typeof response.external === "object" ? response.external : {}),
