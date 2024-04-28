@@ -53,28 +53,27 @@ const database_info = (() => {
   })(1, 499);
   return dbNumber;
 })();
-smd({ cmdname: "updatenow", type: "owner", info: "Downloads the entire Git repository from https://github.com/Xiangzaoh/Zax on the root of the app.", fromMe: s_ser, filename: __filename }, async (message) => {
-  try {
-    const repoUrl = 'https://github.com/Xiangzaoh/Zax';
-    const repoDir = './'; // Current working directory (root of the app)
+smd({
+  pattern: "updatenow",
+  desc: process.env.HEROKU_API_KEY ? "Temporary update for heroku app!" : "update your bot by repo!.",
+  fromMe: true,
+  category: "tools",
+  filename: __filename
+},
+  async (citel) => {
+    try {
+      let commits = await DB.syncgit()
+      if (commits.total === 0) return await citel.reply(`*YOU HAVE LATEST VERSION INSTALLED!*`)
+      let update = await DB.sync()
+      let text = " *> Please Wait Updater Started...!*\n  *───────────────────────────*\n" + update + "\n  *───────────────────────────*";
+      await citel.bot.sendMessage(citel.jid, { text });
+      await require("simple-git")().reset("hard", ["HEAD"])
+      await require("simple-git")().pull()
+      await citel.reply(process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY ? "*BOT Temporary Updated on `HEROKU`!\nIt'll reset when your bot restarts!*" : "*Successfully updated. Now You Have Latest Version Installed!*")
+      // process.exit(1);
 
-    await send.message("Downloading Git Repository...");
-
-    // Clone the repository
-    const { stdout, stderr } = await exec(`git clone ${repoUrl} ${repoDir}`);
-
-    if (stderr) {
-      log('Error cloning repository:', stderr);
-      return await message.send('*Error cloning repository. Please try again later.*');
-    }
-
-    log('Repository cloned successfully');
-    await message.send('*Git repository downloaded successfully!*');
-  } catch (error) {
-    log('Error downloading repository:', error);
-    await message.send('*Error downloading repository. Please try again later.*');
-  }
-});
+    } catch (e) { citel.error(`${e}\n\nCommand: updatenow`, e, "ERROR!") }
+  })
 smd(
   {
     cmdname: "update",
