@@ -5,7 +5,7 @@
 
 ---
 <p align="left">
-    <img alt="zax-md docs" height="400" src="https://i.imgur.com/WH2leEx.jpeg">
+    <img alt="zax-md docs" height="450" src="https://i.imgur.com/WH2leEx.jpeg">
   </a>
 </p>
 
