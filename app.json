@@ -1,7 +1,7 @@
 {
   "name": "zax-md",
   "description": "Premium WhatsApp Bot",
-  "logo": "https://i.imgur.com/J8VIXyB.jpeg",
+  "logo": "https://iili.io/JgAR7WJ.jpg",
   "keywords": "Zax-Md",
   
   "env": {
@@ -45,7 +45,7 @@
     "USER_IMAGES": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg,https://i.imgur.com/ubzKvCT.jpeg"
+      "value": "https://iili.io/JgAR7WJ.jpg,https://iili.io/JgAR7WJ.jpg,https://iili.io/JgAR7WJ.jpg,https://iili.io/JgAR7WJ.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
