@@ -15,7 +15,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dodoma";
 global.github = process.env.GITHUB || "https://github.com/Xiangzaoh/Zax-Md";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/ubzKvCT.jpeg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://iili.io/JgAR7WJ.jpg";
 global.devs = "255688930205";
 global.sudo = process.env.SUDO || "255688930205";
 global.owner = process.env.OWNER_NUMBER || "255688930205";
@@ -50,7 +50,7 @@ module.exports = {
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "©zaxbot",
   author: process.env.PACK_AUTHER || "zax-md",
-  packname: process.env.PACK_NAME || "Xhrisstz ♥️",
+  packname: process.env.PACK_NAME || "Xhrisstz♥️",
   botname: process.env.BOT_NAME || "ZAX-MD",
   ownername: process.env.OWNER_NAME || "MrXhriss",
   errorChat: process.env.ERROR_CHAT || "",
