@@ -1091,7 +1091,7 @@ cmd(
         "remove"
       );
       await _0x5e533c.send(
-        "*Hurray, @" + _0x4e844a.split("@")[0] + " Kicked Succesfully!*",
+        "**",
         {
           mentions: [_0x4e844a],
         }
