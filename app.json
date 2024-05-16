@@ -23,7 +23,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "ZAX-MD"
+      "value": "zᴀx ᴍᴅ"
     }, 
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
@@ -45,7 +45,7 @@
     "USER_IMAGES": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://iili.io/JgAR7WJ.jpg,https://iili.io/JgAR7WJ.jpg,https://iili.io/JgAR7WJ.jpg,https://iili.io/JgAR7WJ.jpg"
+      "value": ""
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -109,12 +109,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "MrXhriss",
+      "value": "zᴀxbot",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "Xhriss",
+      "value": "zᴀxbot",
       "required": false 
     },
     "STACK": {
