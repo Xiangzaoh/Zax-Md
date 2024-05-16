@@ -96,7 +96,7 @@ smd(
         return await _0xd700b1.send(
           "*_provide text to update profile status!_*\n*_Example: " +
             prefix +
-            "bio Zax Md_*"
+            "bio zᴀx ᴍᴅ_*"
         );
       }
       await _0xd700b1.bot.updateProfileStatus(_0xb45f41);
@@ -897,7 +897,7 @@ smd(
       else message.reply(`*No Data FOUNd!* `);
     } catch (e) {
       console.error("Error:", e);
-      message.reply(`*YEAH IT'S ZAX MD* `);
+      message.reply(`*yep it's zᴀx ᴍᴅ* `);
     }
   }
 );

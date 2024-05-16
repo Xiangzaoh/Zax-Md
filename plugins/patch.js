@@ -661,7 +661,7 @@ smd(
 
       const cpuName = process.cpuData ? process.cpuData.modelName : "Unknown";
 
-      const message = `*ZAX MD Running Since:*\n\n*Uptime:* ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n*RAM Usage:* ${ramUsage.toFixed(2)} MB\n*CPU Name:* ${cpuName}`;
+      const message = `*zᴀx ᴍᴅ Running Since:*\n\n*Uptime:* ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n*RAM Usage:* ${ramUsage.toFixed(2)} MB\n*CPU Name:* ${cpuName}`;
 
       const button = [
         {
@@ -674,9 +674,9 @@ smd(
       const contextInfo = {
         isForwarded: true,
         forwardingScore: 999,
-        title: "ZAX MD Running Since",
+        title: "zᴀx ᴍᴅ Running Since",
         body: message,
-        footerText: "ZAX MD 2024",
+        footerText: "zᴀx ᴍᴅ 2024",
         isSendNotificationMsg: true,
         mentionedJid: [],
         buttons: button,

@@ -1,7 +1,7 @@
 {
     "__JSON__": true,
     "AUTHOR": "MrXhriss",
-    "theme": "ZAX-MD",
+    "theme": "zᴀx ᴍᴅ",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
@@ -10,7 +10,7 @@
             "UPDATED_LOCAL": "Updated Bot successfully"
         },  
         "global": {      
-            "botName": "ZAX MD",
+            "botName": "zᴀx ᴍᴅ",
             "body": "Premium WhatsApp Bot", 
             "greet2" : "GoodDay SIR",
             "pic1": "https://iili.io/JgAR7WJ.jpg", 
