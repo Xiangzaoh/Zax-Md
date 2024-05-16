@@ -1091,7 +1091,6 @@ cmd(
         "remove"
       );
       await _0x5e533c.send(
-        "**",
         {
           mentions: [_0x4e844a],
         }
@@ -4197,7 +4196,6 @@ smd(
                 });
                 await _0x39f91d.delete();
               } else if (_0x273393.antilink === "kick") {
-                await _0x39f91d.send("*__*");
                 try {
                   await _0x39f91d.delete();
                   sleep(1500);
