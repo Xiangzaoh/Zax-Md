@@ -4169,7 +4169,7 @@ smd(
                   mentions: [_0x39f91d.sender],
                 });
               } else if (_0x273393.antilink === "delete") {
-                await _0x39f91d.send("*_Deletion Done!_*");
+                await _0x39f91d.send("**");
                 await _0x39f91d.delete();
               } else if (
                 _0x273393.antilink === "warn" ||
