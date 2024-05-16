@@ -260,27 +260,6 @@ astro_patch.smd(
         menuThemeCategoryFooter = "」\n╰┬────────────┈⊷";
         menuThemeCommandPrefix = "││◦➛";
         menuThemeCommandFooter = "│╰────────────┈⊷\n╰─────────────┈⊷";
-      } else if (
-        menuThemeType === 2 ||
-        Config.menu.trim().startsWith("2") ||
-        Config.menu.toLowerCase().includes("menu2")
-      ) {
-        menuThemeHeader =
-          "╭═══ *" + Config.botname + "* ═══⊷\n┃❃╭──────────────";
-        menuThemeCommandPrefix = "┃❃│";
-        menuThemeFooter = "┃❃╰───────────────\n╰═════════════════⊷";
-        menuThemeCategoryHeader = "╭─❏";
-        menuThemeCategoryFooter = "❏";
-        menuThemeCommandPrefix = "┃❃│";
-        menuThemeCommandFooter = "┃❃╰───────────────\n╰═════════════════⊷";
-      } else {
-        menuThemeHeader = "╭〘  " + Config.botname + "  〙";
-        menuThemeCommandPrefix = "│ │";
-        menuThemeFooter = "╰═══════════════⊷";
-        menuThemeCategoryHeader = "╭─❍";
-        menuThemeCategoryFooter = "══⊷❍";
-        menuThemeCommandPrefix = "│";
-        menuThemeCommandFooter = "╰════════════─⊷";
       }
 
       const categorizedCommands = {};

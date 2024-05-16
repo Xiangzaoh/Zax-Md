@@ -44,7 +44,7 @@ global.SESSION_ID =
   "";
 
 module.exports = {
-  menu: process.env.MENU || "",
+  menu: process.env.MENU || "menu1",
   HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
