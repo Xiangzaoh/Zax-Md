@@ -24,7 +24,7 @@
 
 <a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY RENDER -h?color=blue&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
 
-<a href='https://www.koyeb.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY KEYOB -h?color=blue&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+<a href='https://www.koyeb.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY KEYOB -h?color=blue&style=for-the-badge&logo=keyob' width="96.35" height="28"/></a></p>
 
  ### SUPPORT CHANNEL
 <a href="https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k"><img title="zax-md Deploy Glitch" src="https://img.shields.io/badge/WHATSAPP CHANNEL-h?color=blue&style=for-the-badge&logo=whatsapp"></a>
