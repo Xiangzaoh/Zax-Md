@@ -18,7 +18,7 @@
 ## DEPLOYMENT METHOD
 <a href="https://heroku.com/deploy?template=https://github.com/Xiangzaoh/zax-md"><img title="zax-md Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=blue&style=for-the-badge&logo=heroku"></a> 
 
-<a href='https://repl.it/github/Xiangzaoh/zax-md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<a href='https://repl.it/github/Xiangzaoh/zax-md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY REPLIT-blue?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
  ### SUPPORT CHANNEL
