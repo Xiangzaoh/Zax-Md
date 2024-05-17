@@ -20,11 +20,11 @@
 
 <a href='https://repl.it/github/Xiangzaoh/zax-md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY REPLIT-blue?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
-<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY RAILWAY -h?color=blue&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
+<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY RAILWAY -h?color=blue&style=for-the-badge&logo=railway'/></a>
 
-<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY RENDER -h?color=blue&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY RENDER -h?color=blue&style=for-the-badge&logo=render'/></a>
 
-<a href='https://www.koyeb.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY KEYOB -h?color=blue&style=for-the-badge&logo=keyob' width="96.35" height="28"/></a></p>
+<a href='https://www.koyeb.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY KEYOB -h?color=blue&style=for-the-badge&logo=koyeb'/></a>
 
  ### SUPPORT CHANNEL
 <a href="https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k"><img title="zax-md Deploy Glitch" src="https://img.shields.io/badge/WHATSAPP CHANNEL-h?color=blue&style=for-the-badge&logo=whatsapp"></a>
