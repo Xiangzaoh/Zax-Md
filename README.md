@@ -20,7 +20,7 @@
 
 <a href='https://repl.it/github/Xiangzaoh/zax-md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY REPLIT-blue?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
-<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY RAILWAY -h?color=blue&style=for-the-badge&logo=railway'/></a>
+<a href='https://railway.app/new/template/sRBrec' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY RAILWAY -h?color=blue&style=for-the-badge&logo=railway'/></a>
 
 <a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY RENDER -h?color=blue&style=for-the-badge&logo=render'/></a>
 
