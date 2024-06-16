@@ -11,6 +11,8 @@
    },
    "devDependencies": {
       "pino": "^7.0.5",
+      "typescript": "^4.9.4",
+      "@types/node": "^18.11.18"
    },
    "author": "Xiangzaoh",
    "license" :"Apache-2.0",
