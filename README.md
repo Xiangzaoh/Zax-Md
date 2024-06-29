@@ -1,6 +1,6 @@
 # ZAX-MD
 
- [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=🌟Hi+THERE🌟;I'M+ZAX-MD;ENJOY+WHATSAPP+BOT+WITH+PREMIUM-FEATURES🚀;🤟🏽WITH+BEST+FEATURES🔥;CREATED+BY+XHRISS-MWANJ+THANKS)](https://git.io/typing-svg)
+ [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=🌟Hi+THERE🌟;I'M+ZAX-MD;ENJOY+WHATSAPP+BOT+WITH+PREMIUM-FEATURES🚀;🤟🏽WITH+BEST+FEATURES🔥;CREATED+BY+XHRISS-TZ+THANKS)](https://git.io/typing-svg)
 </p>
 
 ---
