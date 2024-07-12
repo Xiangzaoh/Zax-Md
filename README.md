@@ -13,7 +13,7 @@
 <left>
 <a href="https://github.com/Xiangzaoh/zax-md/fork"><img title="ZAX-MD" src="https://img.shields.io/badge/FORK ZAX MD-h?color=blue&style=for-the-badge&logo=msi"></a>  
  
- <a href="https://zax-35f9ce6e2804.herokuapp.com/"><img title="SESSION ID" src="https://img.shields.io/badge/CONNECT TO SERVER -h?color=blue&style=for-the-badge&logo=msi"></a>
+ <a href="https://zaxtz-b0a0aa949e4d.herokuapp.com/"><img title="SESSION ID" src="https://img.shields.io/badge/CONNECT TO SERVER -h?color=blue&style=for-the-badge&logo=msi"></a>
 
 ## DEPLOYMENT METHOD
 <a href="https://heroku.com/deploy?template=https://github.com/Xiangzaoh/zax-md"><img title="zax-md Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=blue&style=for-the-badge&logo=heroku"></a> 
