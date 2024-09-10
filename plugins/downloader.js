@@ -41,7 +41,7 @@ smd(
         return await message.send("*_Please provide a valid Spotify URL._*");
       }
 
-      const apiUrl = `https://astro-api-crqy.onrender.com/download/spotify?url=${encodeURIComponent(url)}`;
+      const apiUrl = `https://astro-api-crqy.onrender.com/}`;
       const response = await axios.get(apiUrl);
       const data = response.data;
 
@@ -100,7 +100,7 @@ smd(
         return await message.send("*_Please provide a search query._*");
       }
 
-      const apiUrl = `https://astro-api-crqy.onrender.com/search/spotify?q=${encodeURIComponent(query)}`;
+      const apiUrl = `https://astro-api-crqy.onrender.com/}`;
       const response = await axios.get(apiUrl);
       const data = response.data;
 
@@ -197,7 +197,7 @@ smd({
     if (!query || !query.startsWith("https://")) {
       return await message.send("*_Please provide a valid Facebook Video URL._*\n*Example: " + prefix + "fb https://www.facebook.com/watch/?v=2018727118289093_*");
     }
-    let video = await smdJson("https://astro-api-crqy.onrender.com/api/fbdown?url=" + query);
+    let video = await smdJson("https://astro-api-crqy.onrender.com/" + query);
     if (!video || !video.status) {
       return await message.reply("*Invalid Video URL!*");
     }
@@ -420,7 +420,7 @@ smd({
       return await msg.reply("*Please provide a SoundCloud audio URL.*");
     }
 
-    const apiUrl = `https://astro-api-crqy.onrender.com/download/soundcloud?url=${encodeURIComponent(url)}`;
+    const apiUrl = `https://astro-api-crqy.onrender.com/}`;
     const response = await fetch(apiUrl).then(res => res.json());
 
     if (!response || response.status !== 200) {
@@ -486,7 +486,7 @@ smd({
       return await msg.reply("*Please provide a TikTok video URL.*");
     }
 
-    const apiUrl = `https://astro-api-crqy.onrender.com/download/tiktokimg?url=${encodeURIComponent(url)}`;
+    const apiUrl = `https://astro-api-crqy.onrender.com/}`;
     const response = await fetch(apiUrl).then(res => res.json());
 
     if (!response || response.status !== 200) {
@@ -836,7 +836,7 @@ smd({
       return await message.reply("*Uhh Please, Give me Valid Tiktok Video Url!*");
     }
 
-    const apiUrl = "https://astro-api-crqy.onrender.com/api/ttdl2";
+    const apiUrl = "https://astro-api-crqy.onrender.com/";
     const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
     const data = await response.json();
 
