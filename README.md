@@ -1,5 +1,8 @@
 # ZAX-MD
 
+###  ZAX MD VIEWS
+![Visitor Count](https://profile-counter.glitch.me/Xiangzaoh/count.svg)
+
  [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=🌟Hi+THERE🌟;I'M+ZAX-MD;ENJOY+WHATSAPP+BOT+WITH+PREMIUM-FEATURES🚀;🤟🏽WITH+BEST+FEATURES🔥;CREATED+BY+XHRISS-TZ+THANKS)](https://git.io/typing-svg)
 </p>
 
