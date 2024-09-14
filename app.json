@@ -7,7 +7,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "MrXhriss",
+      "value": "MrKakashi",
       "required" :true
     },   
     "HEROKU_API_KEY": {
@@ -27,15 +27,15 @@
     }, 
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": "."
+      "value": "+"
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comm \",\")",
-      "value": "255688950205"
+      "value": "2349021035544"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": "ZAX;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUFmdXZwQnFseXpPSVR3bHNRV2ZhN1dGSWpHMlJiZXh5QUY3SmJwUnFVZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUQvZWRXSVJnS3BVNlllNHZHL3NVZkpxKzRYS1QrMXMwd0l5SXlOM01RYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIySTZkY1N5UXZtUXBYUG42ZDJsM2Y1d2dWUFpDU2gydHRNQVp3RzliUkZZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJQbmhDaXlDNjk4L0VtWVdaSWg0cG5QSzFmM05uL2JXQ1E3V2taZFZwWHd3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVDUDFFZUhaSDFwT2ZiTHkwelR1WTlrWkxSWm1TNno2QVB3VGRIQVBBME09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9GS1JwUG1MS0gyK05jS2lXV0U2ZG1kb0R0anMyVzFwVC9QTU1ia0V1VVk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUR3MmlEWmNtSmE1cEZkS1ZTbFZpTHRTV2IxMGQvYTladStXU3lLaWxubz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSnZOUnpuM1dVYVMxTm1BV0pzRUZ3OXBXMnB4NjhZN3N6c2RzSCtGT3lBWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IllTODZoWmE5NGIxUWR3c21MOVAzNXdDTmh2SFlHSWZiTlZPdzdrNW1UTFpQYnJIZGRQUFJtN3IvbUtTMEEyWktSVVFrZUFBRXdiV3ZMWVdvM1J2eUNBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTM5LCJhZHZTZWNyZXRLZXkiOiJ5UUVmN1RuTkJwUDcxdkdwTzVjaXhJNndsT0NJd3JQZVdISGpkR3grSkxvPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJOTlo3Mzc3SFJCSzM3NFoxS2tVR2RBIiwicGhvbmVJZCI6ImNkOTE5ZGRmLWU4MTItNDVlMC04ZWI2LTA5MTdhMjlmYmE1OCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI1bGJoZzZwQzVhSUVtQ1g2NE1YRW10YVNtWjQ9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieXRNczF6TXdMVlMvQ3lBbnVLY1dpTFVQM0MwPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkZBQzZXOFRIIiwibWUiOnsiaWQiOiIyMzQ5MDIxMDM1NTQ0OjE5QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNNMjkyL01GRUpXNGxyY0dHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiI0cGdxM1ozcEVvNHRZSStJVzNjNktGMDdYT1lRNXNRclhDdldxV2M3aGlRPSIsImFjY291bnRTaWduYXR1cmUiOiJWSXVtbjV6ckFvOFNmVUNlNTdrcHEraExnbGNpbjh0S1hzLzUvODJLZkdxRVRaNVlZMENnY2xXZXdzcXYxWW0zN2NLeC96TzlyRmFLNXM5Rm04Z2dCdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoieUtjaVNjb0hPOUcxajF3ekxxNkdZMTB0YXlXT0xPdmtqOFRGckFWOGtqWnBiV0dYamt4TGpyQjZNZFJOZm9QRkN5bnM3ckxpcVRYc1BOTjlGSURSQnc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ5MDIxMDM1NTQ0OjE5QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmVLWUt0MmQ2UktPTFdDUGlGdDNPaWhkTzF6bUVPYkVLMXdyMXFsbk80WWsifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjYzMjM3NDYsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSHpLIn0="
   
     },
     "MODE": {
@@ -70,7 +70,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required" :false,
-      "value": "available"
+      "value": ""
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
