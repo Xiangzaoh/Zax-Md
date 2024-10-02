@@ -565,7 +565,7 @@ cmd(
     alias: ["viewonce", "retrive"],
     desc: "viewOnce Message.",
     category: "whatsapp",
-    use: "<query>",
+    use: "<reply user.>",
     react: "👀",
     filename: __filename,
   },
