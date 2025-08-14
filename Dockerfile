@@ -1,4 +1,4 @@
-FROM node:lts-buster
+FROM node:lts-busterW
 RUN git clone https://github.com/Xiangzaoh/Zax-Md/ /root/Xiangzaoh
 WORKDIR /root/Xiangzaoh/
 RUN apt-get update && \
@@ -12,3 +12,4 @@ RUN apt-get update && \
 RUN npm install
 EXPOSE 8000
 CMD ["npm", "start"]
+
